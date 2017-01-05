@@ -2,18 +2,8 @@ MapReduce: Simplified Data Processing on Large Clusters (大型集群中简化�
 
 MapReduce -- MapReduce是一种编程模型和处理large data sets相关的实现 (associated implementation). 
 
-
-
-
-
-
-
-
-
-
-
-
-
+用户指定一个map function，这个function会把一对 key/value pair转化为a set of intermediate key/value pairs. 
+用户另设一个reduce function，会把intermediate values merge为相同的intermediate key. 
 
 
 
